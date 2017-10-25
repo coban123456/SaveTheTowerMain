@@ -179,7 +179,7 @@ public class WaterWorld extends GameEngine {
      * Vernieuwt het dashboard
      */
     private void refreshDasboardText() {
-        dashboardText.setText("Kebabs popped: "+bubblesPopped);
+        dashboardText.setText("Kebabs owned: "+bubblesPopped);
     }
 
     /**
