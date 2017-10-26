@@ -170,6 +170,8 @@ public class WaterWorld extends GameEngine {
         };
         tileMap = new TileMap(tileSize, tileTypes, tilesMap);
     }
+    
+    
 
     @Override
     public void update() {
@@ -180,7 +182,7 @@ public class WaterWorld extends GameEngine {
      */
     private void refreshDasboardText() {
         dashboardText.setText("towers owned: "+bubblesPopped);
-        System.out.println(bubblesPopped); 
+        System.out.println(bubblesPopped+"hallo ahmet"); 
     }
 
     /**
