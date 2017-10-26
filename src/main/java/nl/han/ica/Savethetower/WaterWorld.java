@@ -180,6 +180,7 @@ public class WaterWorld extends GameEngine {
      */
     private void refreshDasboardText() {
         dashboardText.setText("towers owned: "+bubblesPopped);
+        System.out.println(bubblesPopped); 
     }
 
     /**
