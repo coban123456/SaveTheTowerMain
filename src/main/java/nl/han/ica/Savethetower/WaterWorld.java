@@ -1,6 +1,6 @@
 package nl.han.ica.Savethetower;
 
-import com.sun.prism.image.ViewPort;
+//import com.sun.prism.image.ViewPort;
 import nl.han.ica.OOPDProcessingEngineHAN.Dashboard.Dashboard;
 import nl.han.ica.OOPDProcessingEngineHAN.Engine.GameEngine;
 import nl.han.ica.OOPDProcessingEngineHAN.Objects.Sprite;
@@ -179,7 +179,7 @@ public class WaterWorld extends GameEngine {
      * Vernieuwt het dashboard
      */
     private void refreshDasboardText() {
-        dashboardText.setText("Kebabs owned: "+bubblesPopped);
+        dashboardText.setText("towers owned: "+bubblesPopped);
     }
 
     /**
