@@ -21,7 +21,7 @@ import javax.swing.UIManager;
 
 
 @SuppressWarnings("serial")
-public class TowerDefense extends JFrame {
+public class SaveTheTower extends JFrame {
 //Launcher
 	
 	private JPanel contentPane;
@@ -37,7 +37,7 @@ public class TowerDefense extends JFrame {
 			EventQueue.invokeLater(new Runnable() {
 				public void run() {
 					try {
-						TowerDefense frame = new TowerDefense();
+						SaveTheTower frame = new SaveTheTower();
 						frame.setVisible(true);
 						registerEscListener();
 					} catch (Exception e) {
@@ -66,7 +66,7 @@ public class TowerDefense extends JFrame {
 			} else {
 				System.out.println();
 				
-				System.out.println("Argumente:");
+				System.out.println("argument:");
 				
 				System.out.println("-720p");
 				System.out.println("-1440p");
@@ -79,7 +79,7 @@ public class TowerDefense extends JFrame {
 		
 	}
 
-	public TowerDefense() {
+	public SaveTheTower() {
 		setIconImage(Toolkit.getDefaultToolkit().getImage("res" + File.separator + "ico.png"));
 		setAlwaysOnTop(true);
 		setTitle(Frame.Titel + " - Launcher");
